@@ -33,7 +33,7 @@ System.out.println("Enter the number of elements of the array");
 int length = sc.nextInt();
 array = new int[length];
 for(int i = 0; i<length;i++) {
-	System.out.print("Enter the element to store in array");
+	System.out.print("Enter the element to store in array ");
 	array[i] = sc.nextInt();
 }
 }
@@ -56,7 +56,7 @@ public void searchValue(int value) {
 	for(int i = 0; i<array.length; i++) {
 		if(array[i] == value)
 		{
-			System.out.print("List contains the element "+value + " at position "+i);
+			System.out.print("List contains the element "+value + " at position "+(i+1));
 		}
 	}
 
